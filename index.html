@@ -19,8 +19,12 @@
 			box-sizing: border-box;
 		}
 		::marker{
-			font-size: 1.7rem;
+			font-size: 1.3rem;
 		}
+                .header{
+                   padding: 10px;
+        
+                }
 		body{
 			
 			background-color: rgba(227, 219, 216, 1);
@@ -29,13 +33,14 @@
 		ol{
 			display: flex;
 			flex-wrap: wrap;
+
 		}
 		ol>li{
 			font-size: 1.5rem;
 			text-transform: capitalize;
 			margin: 20px;
 			padding: 15px;
-			width: 200px;	
+			width: 270px;	
 		}
 		
 		li>a{
@@ -74,15 +79,20 @@
 			opacity: 0.75;
 		}
 
+               @media screen and width: 600px) {
+                     	ol>li{
+			font-size: 1rem;	
+		}
+               }
 	</style>
 </head>
 <body>
-<div>
+<div class="header">
 	<h3>Class 12 English book exercises</h3>
 	<p>These notes are linked to <a href="https://www.tsz.com.np/">SR Zone</a> websites</p>
 	<p>I have created this for educational purposes only.</p>
 </div>
-<div><h2>English: Language Development</h2>
+<div class="conatiner p-3"><h2>English: Language Development</h2>
 	<ol>
 <li><a href="https://www.tsz.com.np/2021/08/class-12-english-book-chapter-1-know.html" target="_blank">Critical</a></li>
 <li><a href="https://www.tsz.com.np/2021/08/class-12-english-book-chapter-2-family.html" target="_blank">Family</a></li>
